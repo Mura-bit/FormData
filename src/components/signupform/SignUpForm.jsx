@@ -57,8 +57,7 @@ const SignUpForm = () => {
             placeholder="ConfirmPassword"
                 />
                 <button type="submit">Sign Up</button>
-                {submitedFormData && getForm.password == getForm.confirmPassword && <h2>Form submitted!</h2>}
-                {submitedFormData && getForm.password !== getForm.confirmPassword && <h2>Password doesnt match</h2>}
+                {submitedFormData && getForm.password !== getForm.confirmPassword && <h2>Password not matching!</h2>}
         </form>
       </div>
     );
