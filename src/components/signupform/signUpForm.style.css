@@ -1,0 +1,36 @@
+.container {
+    padding: 25px;
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input {
+    border-radius: 5px;
+    height: 35px;
+}
+
+button {
+    border-radius: 5px;
+    height: 45px;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #8e91f2;
+    color: blue;
+} 
+
+h2 {
+    color: #ffffff;
+}
